@@ -5,5 +5,4 @@ calculateBtn.addEventListener("click", function() {
   let visitsPerSite = document.getElementById("visitsPerSite").value;
   let visitsSoFar = document.getElementById("visitsSoFar").value;
   
-  console.log(totalSites, visitsPerSite, visitsSoFar); 
-});
+  console.log(totalSites, visitsPerSite, visitsSoFar); });
