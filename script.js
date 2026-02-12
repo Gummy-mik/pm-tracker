@@ -2,7 +2,7 @@ let calculateBtn = document.getElementById("calculateBtn");
 
 calculateBtn.addEventListener("click", function() {
   
-  let RCBCBankSites = Number(document.getElementById("RCBCBankSites).value);
+  let RCBCBankSites = Number(document.getElementById("RCBCBankSites").value);
   let PLC = Number(document.getElementById("PLC").value);
   let Offsites = Number(document.getElementById("Offsites").value);
   let totalSites = Number(document.getElementById("totalSites").value);
