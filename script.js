@@ -1,9 +1,9 @@
 let calculateBtn = document.getElementById("calculateBtn");
 
 calculateBtn.addEventListener("click", function() {
-  let totalSites = number(document.getElementById("totalSites").value);
-  let visitsPerSite = number(document.getElementById("visitsPerSite").value);
-  let visitsSoFar = number(document.getElementById("visitsSoFar").value);
+  let totalSites = Number(document.getElementById("totalSites").value);
+  let visitsPerSite = Number(document.getElementById("visitsPerSite").value);
+  let visitsSoFar = Number(document.getElementById("visitsSoFar").value);
 
   let totalRequired = totalSites * visitsPerSite;
   
