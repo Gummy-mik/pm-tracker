@@ -5,6 +5,6 @@ calculateBtn.addEventListener("click", function() {
   let visitsPerSite = Number(document.getElementById("visitsPerSite").value);
   let visitsSoFar = Number(document.getElementById("visitsSoFar").value);
 
-  let totalRequired = totalSites * 2 ;
+  let Remaining Visits = totalSites - visitsSoFar ;
   
-  console.log("Total Required Visits:", totalRequired); });
+  console.log("Remaining Visits:", totalVisits); });
