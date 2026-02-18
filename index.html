@@ -2,8 +2,63 @@
 <html>
   <head>
     <title>North Luzon PM Monthly Tracker</title>
+
+    <style> {
+      font-family: Arial, sas-serif;
+      background-color: #f4f6f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      }
+
+    .card {
+      background: white;
+        padding: 30px;
+        width: 350px;
+        border-radius: 12px;
+        box-shadow: 0 10ox 25px rgba(0, 0, 0, 0.1);
+      }
+      
+   h2 {
+     text-align: center;
+     margin-bottom: 20px;
+   }
+      
+   input {
+     width: 100%;
+     padding: 8px;
+     margin-bottom: 12px;
+     border-radius: 6px;
+     border: 1px solid #ccc;
+   }
+
+   button {
+     width: 100%;
+     padding 10px:
+     border: none;
+     border-radius: 6px;
+     background-color: #007bff;
+     color: white;
+     font-weight: bold;
+     cursor: pointer;
+   }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+      #result {
+        margin-top: 15px;
+        font-weight: bold;
+        text-align: center;
+      }   
+    </style>
   </head>
   <body>
+
+    <div class="card">
+      
     <h2>Preventive Maintenance Monthly Tracker</h2>
 
     <label for="RCBCBankSites">RCBC Bank Sites:</label>
@@ -28,6 +83,8 @@
 
     <h3>Result:</h3>
     <div id="result"></div>
+
+    </div>
 
     <script src="script.js"></script>
   </body>
